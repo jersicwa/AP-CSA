@@ -20,7 +20,8 @@ public class Helloworld {
             System.out.println -- display whatever is in the () on the screen, then move the cursor to the next line
         */
         System.out.print("CS ");
-        System.out.print("Rocks!");
+        System.out.println("Rocks!");
+        System.out.println("Hello World");
     }
 
 }
