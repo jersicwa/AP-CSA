@@ -1,11 +1,11 @@
 public class ExpressionsAssignmentStatements {
     public static void main(String[] args) {
+        /* 
         System.out.println(3);
         System.out.println("3");
         System.out.println(3+3);
         System.out.println("3"+"3");
 
-        /*
          * 1) Addition (8+4)
          * 2) Subtraction (8-4)
          * 3) Multiplication (8*4)
@@ -15,7 +15,18 @@ public class ExpressionsAssignmentStatements {
          * int + int = int
          * double + double = double
          * int + double = double
+         * 
+         * 
+         * Assignment Operatior
+         * x=7; -- Legal
+         *      Assigning a variable to a number
+         * 7=x; -- not legal
+         * Works right to left
          */
+
+        
+
+
     }
     
 }
