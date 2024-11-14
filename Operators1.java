@@ -46,7 +46,6 @@ public class Operators1 {
         // index always starts from 0, shows -1 if not found, if there is multiple it shows the first occurance
         int index = name.indexOf("V");
         System.out.println("'6' is a \"number\"\\");
-        System.out.println(index +)
         // Adding numbers and strings
 
 
