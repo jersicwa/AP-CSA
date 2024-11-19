@@ -10,6 +10,11 @@ public class InputPrac {
         System.out.println("What's the second number");
         int num2=input.nextInt();
         System.out.println("The total is "+(num1+num2));
+        System.out.println("What's your name?");
+        input.nextLine(); // clean up cache
+        String name=input.nextLine();
+        input.close();
+        }
 
     }
 }
