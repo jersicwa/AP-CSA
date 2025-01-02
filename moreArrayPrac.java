@@ -9,6 +9,12 @@ public class moreArrayPrac {
         swapEnds(source);
         System.out.println(Arrays.toString(source));
     }
+    public static void printArray(int[] arr){
+        for(int num:arr)
+        {
+            System.out.println(num);bn
+        }
+    }
     public static int[] makeMiddle(int[] nums){
         int[] newArr = new int[2];
         newArr[0]=nums[nums.length/2-1];
