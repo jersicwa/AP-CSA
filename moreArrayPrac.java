@@ -12,7 +12,7 @@ public class moreArrayPrac {
     public static void printArray(int[] arr){
         for(int num:arr)
         {
-            System.out.println(num);bn
+            System.out.println(num);
         }
     }
     public static int[] makeMiddle(int[] nums){
