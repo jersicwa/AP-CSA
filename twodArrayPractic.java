@@ -23,3 +23,39 @@ public class twodArrayPractic {
     }
     }
 
+private List<DownloadInfo> downloadList;
+public MusicDownloads()
+{
+    downloadList = new ArrayList<DownloadInfo>();
+}
+public DownloadInfo getDownloadInfo(String title)
+{
+    for(int i=0;i<downloadList.size();i++)
+    {
+        DownloadInfo music = downloadList.get(i);
+        String musicTitle = music.getTitle();
+        if(musicTitle.equals(title))
+        {
+            return music;
+        }
+    }
+    return null;
+}
+
+public void updateDownloads(List<String> titles)
+{
+    for(int i=0;i<titles.size();i++)
+    {
+        String title = titles.get(i);
+        DownloadInfo obj = getDownloadInfo(title);
+        if(obj==null)
+        {
+            obj = new DownloadInfo(title);
+            downloadList.add(obj);
+        }
+        else
+        {
+            obj.incrementTimesDownloaded();
+        }
+    }
+}
